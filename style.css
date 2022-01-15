@@ -358,10 +358,15 @@ button {
             align-items: center;
             justify-content: center;
             width: 100%;
-           font-size: 14px;
+           
         }
         .menu a{
-            padding: 7px;
+            padding: 5px;
+            font-size: 14px;
+        }
+        .shoppin-cart{
+            margin-left: 10px;
+            font-size: 25px;
         }
  
     .main-header {
