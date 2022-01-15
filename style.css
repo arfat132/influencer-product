@@ -358,9 +358,10 @@ button {
             align-items: center;
             justify-content: center;
             width: 100%;
-            
-            
-           
+           font-size: 14px;
+        }
+        .menu a{
+            padding: 7px;
         }
  
     .main-header {
