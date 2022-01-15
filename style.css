@@ -363,6 +363,7 @@ button {
         justify-content: center;
         text-align: center;
         margin-left: 320px;
+        overflow: hidden;
     }  
     hr{
         display: none;
@@ -412,6 +413,13 @@ button {
     }
     .newsletter-info{
         margin-top: -5px;
+    }
+    .email {
+        display: flex;
+        align-items: center;
+      width: 100%;
+        margin-right: -66px;
+        overflow: hidden;
     }
     
     .about-us{
