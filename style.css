@@ -34,13 +34,13 @@ nav {
 .menu a {
     text-decoration: none;
     color: black;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 600;
     padding: 10px;
 }
 .shoppin-cart {
     margin-left: 20px;
-    font-size: 35px;
+    font-size: 2.1875rem;
     color: #c2096d;
 }
 
@@ -57,13 +57,13 @@ nav {
   
 }
 .header-details h1 {
-    font-size: 50px;
+    font-size: 3.125rem;
     color: #3d3d3c;
     font-weight: 800;
     line-height: 65px;
 }
 .header-details p {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
     margin-top: -15px;
     color: #3d3d3c;
@@ -109,7 +109,7 @@ Popular collection Section CSS
 --------------------------*/
 h1.heading {
     text-align: center;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 600;
     color: #3d3d3c;
 }
@@ -135,7 +135,7 @@ h1.heading {
 }
 
 span.price {
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-weight: 400;
 }
 
@@ -254,7 +254,7 @@ i.far.fa-envelope {
 }
 
 .newsletter-info h4 {
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 input[type="email"] {
@@ -275,7 +275,7 @@ button {
     margin-left: 10px;
     border: none;
     border-radius: 5PX;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
     background: #0A0826;
     color: white;
