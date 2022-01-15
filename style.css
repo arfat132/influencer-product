@@ -336,7 +336,10 @@ button {
      Media Queries
 --------------------------*/
 @media only screen and (max-width:688px){
-   
+   body{
+       margin: auto;
+       padding: auto;
+   }
     header{
         width: 100%;
         overflow: hidden;
@@ -354,22 +357,22 @@ button {
             flex-direction: row;
             align-items: center;
             justify-content: center;
+            width: 100%;
+            
             
            
         }
-    
-       
+ 
     .main-header {
         width: 100%;
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        margin-left: 320px;
+               margin-left: 320px;
         overflow: hidden;
+        
     }  
-    hr{
-        display: none;
-    }  
+      
     
      .container{
         width: 100%;
