@@ -335,9 +335,12 @@ button {
 --------------------------*/
 @media only screen and (max-width:688px){
     body {
-        margin: 0;
-        padding: 0;
+        margin: auto;
+        padding: auto;
         
+    }
+    header{
+        width: 100%;
     }
     nav{
         flex-direction: column;
@@ -354,10 +357,7 @@ button {
            
         }
     
-     .logo-name {
-        margin-left: 50px;
-    }
-   
+       
     .main-header {
         width: 100%;
         flex-direction: column;
@@ -385,11 +385,13 @@ button {
      .feature-product{
         grid-template-columns: repeat(1, 1fr);
         text-align: center;
+
         
      }
      
      .customer-service{
         grid-template-columns: repeat(1, 1fr);
+        
            }
 
      footer{
