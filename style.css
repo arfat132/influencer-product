@@ -339,6 +339,7 @@ button {
    
     header{
         width: 100%;
+        overflow: hidden;
     }
     nav{
         flex-direction: column;
@@ -348,6 +349,7 @@ button {
      }
     
     .menu {
+            overflow: hidden;
             display: flex;
             flex-direction: row;
             align-items: center;
