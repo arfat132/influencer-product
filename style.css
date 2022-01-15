@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/*------------------------
+         Header css 
+-------------------------*/  
+
+header{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.nav-wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    }
+       
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 1250px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.shoppin-cart {
+    margin-left: 20px;
+    font-size: 35px;
+    color: #c2096d;
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+}
+.main-header{
+    display: flex;
+  margin: 0px 125px;
+    
+}
+.header-details{
+    margin-top: 80px;
+    width: 50%;
+  
+}
+.header-details h1 {
+    font-size: 50px;
+    color: #3d3d3c;
+    font-weight: 800;
+    line-height: 65px;
+}
+.header-details p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: -15px;
+    color: #3d3d3c;
+    margin-bottom: 35px;
+}
+.header-details a {
+    background: #c2096d;
+    padding: 10px 44px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+i.fas.fa-arrow-right {
+    margin-left: 10px;
+}
+.header-image{
+    text-align: center;
+    margin-top: 35px;
+    width: 50%;
+   
+}
+main {
+    display: grid;
+    justify-content: center;
+}
+.container{
+    width: 1250px; 
+    margin-bottom: 100px;
+    
+}
+/*-------------------------
+     Logos Section CSS
+--------------------------*/
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+/*-------------------------
+Popular collection Section CSS
+--------------------------*/
+h1.heading {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #3d3d3c;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    overflow: hidden;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    padding: 10px;
+}
+.product {
+    padding: 20px;
+    box-shadow: 2px 2px 10px #c0c0c0;
+    border-radius: 5px;
+}
+
+.product img {
+    width: 100%;
+}
+.product-details h2 {
+    margin-bottom: 11px;
+}
+
+span.price {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.ratings {
+    color: orange;
+    font-size: 13px;
+}
+
+span.rating-number {
+    color: grey;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.product-details p {
+    color: grey;
+    font-weight: 500;
+}
+.see-more a{
+    float: right;
+    text-decoration: none;
+    color: #c2096d;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 10px;
+}
+/*-------------------------
+Feature product Section CSS
+--------------------------*/
+.feature-product{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    
+}
+.feature-product img {
+    width: 80%;
+}
+
+.feature-product-details {
+    margin-left: -55px;
+}
+
+.feature-product-details h1 {
+    font-size: 40px;
+}
+
+.feature-product-details p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #3d3d3c;
+    margin-bottom: 35px;
+}
+.feature-product-details a {
+    background: #c2096d;
+    padding: 10px 44px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+/*------------------------
+         Customer services css 
+-------------------------*/  
+.customer-service{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 50px;
+  
+}
+.service {
+    text-align: center;
+    line-height: 20px;
+}
+
+.service i {
+    background: #0a0826;
+    color: white;
+    padding: 30px;
+    font-size: 50px;
+    border-radius: 100%;
+}
+.service p {
+    font-size: 14px;
+    color: grey;
+    line-height: 25px;
+    
+}
+
+/*-------------------------
+Footer Section CSS
+--------------------------*/
+footer{
+    background: #0A0826;
+    color: white;
+
+}
+.newsletter{
+    background: #c2096D;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+}
+.newsletter-details {
+    margin-left: 125px;
+    display: flex;
+       align-items: center;
+}
+
+i.far.fa-envelope {
+    font-size: 55px;
+    margin-right: 20px;
+}
+.newsletter-info {
+    line-height: 1px;
+}
+
+.newsletter-info h4 {
+    font-size: 18px;
+}
+
+input[type="email"] {
+    width: 520px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding: 0px 15px;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5PX;
+    font-size: 16px;
+    font-weight: 600;
+    background: #0A0826;
+    color: white;
+}
+.about-us{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 70px;
+    margin-left: 125px;
+    padding: 65px 0px;
+}
+.single-info {
+    text-align: justify;
+}
+.contact-us{
+    margin-left: 65px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    line-height: 37px;
+}
+
+.contact-info i {
+    margin-right: 20px;
+    font-size: 20px;
+    color: #c2096d;
+}
+.company a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.footer-details {
+    text-align: center;
+    padding: 50px;
+    line-height: 20px;
+}
+
+.footer-details p {
+    color: #bfe1fe;
+    line-height: 25px;
+}
+
+.social-media i {
+    margin: 0px 5px;
+    background: #3b3b3b;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 100%;
+}
+/*-------------------------
+     Media Queries
+--------------------------*/
+@media only screen and (max-width:688px){
+    body {
+        margin: 0;
+        padding: 0;
+        
+    }
+    nav{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+         
+     }
+    
+    .menu {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+           
+        }
+    
+     .logo-name {
+        margin-left: 50px;
+    }
+   
+    .main-header {
+        width: 100%;
+        flex-direction: column;
+        padding: 0px 190px;
+        justify-content: center;
+        text-align: center;
+    }    
+    main{
+         width: 100%;
+         justify-content: center;
+         
+     }
+     .container{
+        width: 100%;
+    }
+
+     .logos{
+         display: none;
+     }
+     .products{
+     grid-template-columns: repeat(1, 1fr);
+    
+     }
+     
+     .feature-product{
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        
+     }
+     
+     .customer-service{
+        grid-template-columns: repeat(1, 1fr);
+           }
+
+     footer{
+         display: none;
+     }
+}
+  
+
+
+
+
+
+
