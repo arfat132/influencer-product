@@ -397,7 +397,10 @@ button {
      
      .customer-service{
         grid-template-columns: repeat(1, 1fr);
-        padding: 10px;
+       
+    }
+    .service{
+        padding: 20px;
     }
 
      footer{
