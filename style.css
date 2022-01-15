@@ -417,6 +417,7 @@ button {
     .email {
         display: flex;
          overflow: hidden;
+         width: 100%;
     }
     
     .about-us{
